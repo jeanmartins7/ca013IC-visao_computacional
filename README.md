@@ -36,8 +36,60 @@ Este trabalho implementa um pipeline completo de três experimentos:
 │   └── flow/                # Imagens de Fluxo Óptico calculadas
 │
 ├── result/                  # Resultados
-
-│
+    .
+    ├── black_experiment
+    │   ├── exp1_baseline
+    │   │   ├── grafico_baseline.png
+    │   │   └── modelo_baseline_unet.h5
+    │   ├── exp2_augmentation
+    │   │   ├── grafico_exp2_aug.png
+    │   │   └── modelo_exp2_aug.h5
+    │   ├── exp3_flow_architecture
+    │   │   ├── grafico_exp3_flow.png
+    │   │   └── modelo_exp3_flow.h5
+    │   ├── RELATORIO_BLACK.png
+    │   ├── RELATORIO_BLACK_v1.png
+    │   ├── RELATORIO_BLACK_V2.png
+    │   ├── RELATORIO_BLACK_V3.png
+    │   ├── RELATORIO_BLACK_V4.png
+    │   ├── RELATORIO_BLACK_V5.png
+    │   ├── RELATORIO_BLACK_V6.png
+    │   ├── RELATORIO_BLACK_V7.png
+    │   ├── RELATORIO_BLACK_V8.png
+    │   └── RELATORIO_BLACK_V9.png
+    ├── green_experiment
+    │   ├── exp1_baseline
+    │   │   ├── grafico_baseline.png
+    │   │   └── modelo_baseline_unet.h5
+    │   ├── exp2_augmentation
+    │   │   ├── grafico_exp2_aug.png
+    │   │   └── modelo_exp2_aug.h5
+    │   ├── exp3_flow_architecture
+    │   │   ├── grafico_exp3_flow.png
+    │   │   └── modelo_exp3_flow.h5
+    │   ├── RELATORIO_FINAL.png
+    │   ├── RELATORIO_FINAL_V10.png
+    │   ├── RELATORIO_FINAL_V1.png
+    │   ├── RELATORIO_FINAL_V2.png
+    │   ├── RELATORIO_FINAL_V3.png
+    │   ├── RELATORIO_FINAL_V4.png
+    │   ├── RELATORIO_FINAL_V5.png
+    │   ├── RELATORIO_FINAL_V6.png
+    │   ├── RELATORIO_FINAL_V7.png
+    │   ├── RELATORIO_FINAL_V8.png
+    │   └── RELATORIO_FINAL_V9.png
+    └── red_experiment
+        ├── exp1_baseline
+        │   ├── grafico_baseline.png
+        │   └── modelo_baseline_unet.h5
+        ├── exp2_augmentation
+        │   ├── grafico_exp2_aug.png
+        │   └── modelo_exp2_aug.h5
+        ├── exp3_flow_architecture
+        │   ├── grafico_exp3_flow.png
+        │   └── modelo_exp3_flow.h5
+        └── RELATORIO_RED_V3.png
+    │
 ├── src/                     # Código Fonte
     .
     ├── preparation
